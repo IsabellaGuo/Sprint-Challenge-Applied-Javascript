@@ -43,7 +43,7 @@ The EventListener interface represents an object that can handle an event dispat
 
 4. Why would we convert a NodeList into an Array?
 
-
+If you need methods that a NodeList does not provide, but an Array does, you can convert it to an Array to unlock more of those methods.
 
 5. What is a component?
 
