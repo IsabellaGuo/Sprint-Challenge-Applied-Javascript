@@ -17,3 +17,12 @@
     <div class="right-button"> > </div>
   </div>
 */
+class Carousel {
+  constructor(element){
+    this.element = element;
+    console.log(element)
+    this.leftButton = document.querySelector('.left-button');
+    this.rightButton = document.querySelector('.right-button');
+    this.img = document.querySelector('.carousel img');
+  }
+}
